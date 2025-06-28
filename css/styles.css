@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(189, 227, 252);
+}
+#img1{
+    position: relative;
+    top: 80px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.container{
+    background-color: white;
+    position: relative;
+    top: 62px;
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+    border-radius: 1px;
+
+}
+.texto{
+    font-family: sans-serif;
+    color: rgb(72, 65, 65);
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.h1div{
+    font-family: sans-serif;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: rgb(68, 63, 63);
+}
+
+.texto2{
+    text-align: justify;
+    font-family: sans-serif;
+    width: 350px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.texto3{
+    font-family: sans-serif;
+    color: rgb(72, 65, 65);
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 15px;
+}
+.container2{
+     background-color: rgb(8, 10, 126);
+    position: relative;
+    top: -280px;
+    left: -150px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 18px;
+    border-radius: 1px;
+}
+.texto4{
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.criador{
+    font-family: sans-serif;
+}

@@ -1,0 +1,377 @@
+body{
+    background-color: white;
+}
+.img1{
+    position: relative;
+    top: 80px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+ .search-container {
+            position: relative;
+            width: 100%;
+            max-width: 584px;
+            margin-bottom: 30px;
+             top: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+        }
+        
+        .search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            padding: 8px 14px;
+            width: 100%;
+            height: 46px;
+            transition: all 0.3s;
+        }
+        
+        .search-bar:hover, .search-bar:focus-within {
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            border-color: rgba(223, 225, 229, 0);
+        }
+        
+        .search-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 0 15px;
+            background-color: transparent;
+        }
+        
+        .search-icon {
+            color: #9aa0a6;
+            margin-right: 8px;
+        }
+        
+        .voice-search, .lens-search {
+            margin-left: 8px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+        }
+        
+        .voice-search:hover, .lens-search:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .search-button, .lucky-button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-size: 14px;
+            padding: 10px 16px;
+            cursor: pointer;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        
+        .search-button:hover, .lucky-button:hover {
+            border: 1px solid #dadce0;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #f2f2f2;
+            padding: 15px 30px;
+            font-size: 14px;
+            color: #70757a;
+            border-top: 1px solid #dadce0;
+        }
+        
+        @media (max-width: 600px) {
+            .logo svg {
+                width: 200px;
+                height: 68px;
+            }
+            
+            .search-bar {
+                height: 42px;
+            }
+        }
+        .divt{
+  background-color: rgb(237, 238, 246);
+    position: relative;
+    top: 160px;
+    left: -215px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+        }
+.imgt{
+     position: relative;
+    top: 10px;
+    left: 10px;
+}
+       .dive{
+  background-color: rgb(237, 238, 246);
+    position: relative;
+    top: 99px;
+    left: -90px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+        }
+.imge{
+     position: relative;
+    top: 10px;
+    left: 10px;
+}
+     .diva{
+  background-color: rgb(237, 238, 246);
+    position: relative;
+    top: 36px;
+    left: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+        }
+.imga{
+     position: relative;
+    top: 10px;
+    left: 10px;
+}
+    .divd{
+  background-color: rgb(237, 238, 246);
+    position: relative;
+    top: -25px;
+    left: 140px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+        }
+.imgd{
+     position: relative;
+    top: 10px;
+    left: 10px;
+}
+.divm{
+  background-color: rgb(237, 238, 246);
+    position: relative;
+    top: -86px;
+    left: 250px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+        }
+.imgm{
+     position: relative;
+    top: 10px;
+    left: 10px;
+}
+.divpes{
+     background-color: rgb(237, 238, 246);
+    position: relative;
+    top: -20px;
+    left: -150px;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 28px;
+    border-radius: 5px;
+}
+.pdiv{
+    font-size: 15px;
+     text-align: justify;
+    font-family: sans-serif;
+    width: 350px;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+.div2pes{
+     background-color: rgb(237, 238, 246);
+    position: relative;
+    top: -60px;
+    left: 180px;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 28px;
+    border-radius: 5px;
+}
+.p2div{
+    font-size: 15px;
+     text-align: justify;
+    font-family: sans-serif;
+    width: 350px;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+ footer {
+            background-color: #f5f5f5;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+            font-family: sans-serif;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 0.75rem;
+        }
+
+        .footer-logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .footer-about p {
+            line-height: 1.6;
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+
+        .footer-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--primary-color);
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: var(--light-color);
+            text-decoration: none;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+            color: var(--primary-color);
+        }
+
+        .footer-contact p {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            opacity: 0.8;
+        }
+
+        .footer-contact i {
+            margin-right: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .footer-social {
+            margin-top: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--light-color);
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            opacity: 0.7;
+        }
+
+        /* Estilos para icones (simulados com Unicode) */
+        .icon {
+            font-style: normal;
+        }
+
+        .icon.phone::before {
+            content: "📞";
+            margin-right: 0.5rem;
+        }
+
+        .icon.email::before {
+            content: "✉️";
+            margin-right: 0.5rem;
+        }
+
+        .icon.location::before {
+            content: "📍";
+            margin-right: 0.5rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .footer-section {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        
